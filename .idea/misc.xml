@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Unikom/S6/AKB/UAS/KyoMovie/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20729166666666668" />
+        <entry key="..\:/Unikom/S6/AKB/UAS/KyoMovie/app/src/main/res/drawable/corner_radius_image.xml" value="0.20729166666666668" />
+        <entry key="..\:/Unikom/S6/AKB/UAS/KyoMovie/app/src/main/res/drawable/filter.xml" value="0.20729166666666668" />
+        <entry key="..\:/Unikom/S6/AKB/UAS/KyoMovie/app/src/main/res/drawable/ic_baseline_search_black.xml" value="0.20729166666666668" />
+        <entry key="..\:/Unikom/S6/AKB/UAS/KyoMovie/app/src/main/res/drawable/search.xml" value="0.3651041666666667" />
+        <entry key="..\:/Unikom/S6/AKB/UAS/KyoMovie/app/src/main/res/layout/activity_detail_film.xml" value="0.19114583333333332" />
+        <entry key="..\:/Unikom/S6/AKB/UAS/KyoMovie/app/src/main/res/layout/activity_main.xml" value="0.3489583333333333" />
+        <entry key="..\:/Unikom/S6/AKB/UAS/KyoMovie/app/src/main/res/layout/activity_splash_screen.xml" value="0.19114583333333332" />
+        <entry key="..\:/Unikom/S6/AKB/UAS/KyoMovie/app/src/main/res/layout/item_film.xml" value="0.19114583333333332" />
+        <entry key="..\:/Unikom/S6/AKB/UAS/KyoMovie/app/src/main/res/menu/menu.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MReview/app/src/main/res/layout/activity_detail_film.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MReview/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MReview/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MReview/app/src/main/res/layout/item_film.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MReview/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MReview/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2657407407407407" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MReview/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2657407407407407" />
+        <entry key="..\:/Users/aogus/Downloads/Compressed/MReview-master/MReview-master/app/src/main/res/drawable/border_image.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/aogus/Downloads/Compressed/MReview-master/MReview-master/app/src/main/res/drawable/card_shadow.xml" value="0.3828125" />
+        <entry key="..\:/Users/aogus/Downloads/Compressed/MReview-master/MReview-master/app/src/main/res/drawable/corner_radius_image.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/aogus/Downloads/Compressed/MReview-master/MReview-master/app/src/main/res/layout/activity_detail_film.xml" value="0.25" />
+        <entry key="..\:/Users/aogus/Downloads/Compressed/MReview-master/MReview-master/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/aogus/Downloads/Compressed/MReview-master/MReview-master/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/aogus/Downloads/Compressed/MReview-master/MReview-master/app/src/main/res/layout/item_film.xml" value="0.5" />
+        <entry key="..\:/Users/aogus/Downloads/Compressed/MReview-master/MReview-master/app/src/main/res/menu/menu.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/aogus/Downloads/Compressed/MReview-master/MReview-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Users/aogus/Downloads/Compressed/MReview-master/MReview-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

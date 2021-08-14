@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KyoMovie</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="title">Title</string>
+    <string name="desc">Description</string>
+    <string name="date_release">Date Release</string>
+</resources>
