@@ -1,12 +1,18 @@
 package com.kiyo.KyoMovie;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.content.IntentSender;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.kiyo.KyoMovie.model.Result;
 import com.bumptech.glide.Glide;
@@ -49,6 +55,33 @@ public class DetailFilmActivity extends AppCompatActivity {
         Glide.with(getApplicationContext())
                 .load("https://image.tmdb.org/t/p/w500" + image)
                 .into(imgDetail);
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.desc_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.share:
+                String text = tvTitle.getText().toString().trim();
+                if (text.equals("")){
+                    Toast.makeText(DetailFilmActivity.this, "Nothing to Share", Toast.LENGTH_SHORT).show();
+                }else {
+                    Intent sendIntent = new Intent();
+                    sendIntent.setAction(Intent.ACTION_SEND);
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, tvTitle.getText().toString().trim());
+                    sendIntent.setType("text/plain");
+
+                    Intent shareIntent = Intent.createChooser(sendIntent, null);
+                    startActivity(shareIntent);
+                }
+        }
+        return super.onOptionsItemSelected(item);
 
     }
 }

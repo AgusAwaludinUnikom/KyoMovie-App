@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.SearchView;
 
 import com.kiyo.KyoMovie.R;
@@ -29,9 +32,10 @@ public class MainActivity extends AppCompatActivity {
     private SearchView searchView;
     String API_KEY = "10bc236d1741e2965a5b3ecd8ec87677";
     String LANGUAGE = "en-US";
-    String CATEGORY = "top_rated";
+    String CATEGORY = "now_playing";
     int PAGE = 1;
     RecyclerView recyclerView;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         CallRetrofit();
 
     }
+
 
     private void CallRetrofit() {
         ApiInterface apiInterface = ApiClient.getClient().create(ApiInterface.class);
