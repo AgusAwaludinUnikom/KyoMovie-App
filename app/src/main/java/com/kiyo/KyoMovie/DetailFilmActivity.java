@@ -31,8 +31,8 @@ public class DetailFilmActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_film);
 
-        tvTitle = findViewById(R.id.tvJudulDetail);
-        tvReleaseDate = findViewById(R.id.tvTglRilisDetail);
+        tvTitle = findViewById(R.id.tvTitleDetail);
+        tvReleaseDate = findViewById(R.id.tvDateReleaseDetail);
         tvRating = findViewById(R.id.tvRatingDetail);
         tvDetail = findViewById(R.id.tvStoryDesc);
         imgDetail = findViewById(R.id.imgDetail);

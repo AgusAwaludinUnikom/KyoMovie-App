@@ -48,7 +48,7 @@
 
 
                 <TextView
-                    android:id="@+id/tvJudulDetail"
+                    android:id="@+id/tvTitleDetail"
                     android:textAlignment="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/imgDetail" />
 
                 <TextView
-                    android:id="@+id/tvTglRilis"
+                    android:id="@+id/tvDateRelease"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -75,7 +75,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/tvJudulDetail" />
 
                 <TextView
-                    android:id="@+id/tvTglRilisDetail"
+                    android:id="@+id/tvDateReleaseDetail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -112,7 +112,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/tvRating" />
 
                 <TextView
-                    android:id="@+id/tvStoryline"
+                    android:id="@+id/tvDesc"
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
